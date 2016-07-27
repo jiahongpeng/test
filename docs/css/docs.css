@@ -1,0 +1,177 @@
+div,p,dl,dd,a,b,u,em,input,textarea,button,option,select,form,section,label,span,td,li,nav,footer,body,ul,i{
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    word-wrap:break-word;
+    word-break:break-all;
+    padding:0;
+    margin:0;
+    font-weight: normal;
+    list-style:none;
+    outline: none;
+    font-family: 'Microsoft YaHei',Helvetica,Arial,sans-serif;
+}
+html,body{
+    min-height:100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f4f7;
+    font-family: 'Microsoft YaHei',Helvetica,Arial,sans-serif;
+}
+header{
+    height: 63px;
+    background: #FFF;
+    border-bottom: 2px solid #EE543F;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 10;
+    padding: 0;
+}
+.header-wrap{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: all .5s ease-in-out;
+}
+.inner{
+    max-width: 1000px;
+    /*min-width: 750px;*/
+    height: 100%;
+    margin:0 auto;
+}
+.logo {
+    width: 120px;
+    margin-top: 18px;
+    display: inline-block;
+    height: 30px;
+    vertical-align: top;
+    background: url(http://fans.tv.sohu.com/webapp/img/sohu_tv_logo.png) no-repeat;
+}
+.sys-title{
+    line-height: 30px;
+    font-size: 16px;
+    margin: 18px 0 0 ;
+    text-indent: 20px;
+    border-left: 1px solid #EBECEE;
+    color: #767676;
+    display: inline-block;
+    height: 30px;
+}
+.info{
+    float: right;
+    width: 40px;
+    height: 100%;
+    /*border: solid #EBECEE;*/
+    border-width: 0 1px;
+}
+.inner-info{
+    height: 40px;
+    margin-top: 11px;
+}
+.avatar{
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.main{
+    position: relative;
+    z-index: 1;
+    max-width: 1100px;
+    width: 98%;
+    top: 50px;
+    min-height: 50px;
+    margin: 20px auto;
+    background: url(http://fans.tv.sohu.com/webapp/img/split_line.png) 198px 0 repeat-y #FFF;
+    border: 1px solid #DDDEDF;
+    overflow-x: hidden;
+}
+.main:after {
+    content: "\0020";
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    clear: both;
+    height: 0;
+}
+.menu{
+    position: absolute;
+    width: 199px;
+    top: 0;
+    z-index: 10;
+    bottom: 0;
+    overflow-y: hidden;
+    /*border-right: 1px solid #ececec;*/
+    padding: 0;
+    /*margin-right: 20px;*/
+    /*-webkit-overflow-scrolling: touch;*/
+    transition: all .5s ease-in-out;
+}
+.caption{
+    background: #F06060;
+    height: 45px;
+    line-height: 45px;
+    color: #FFF;
+    font-size: 16px;
+    text-align: center;
+
+}
+.sys-menu{
+    margin-top: 15px;
+}
+nav li{
+    text-indent: 47px;
+    height: 34px;
+    line-height: 34px;;
+}
+nav li a{
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    color: #1F282D;
+}
+nav li a:hover,.current{
+    width: 196px;
+    height: 32px;
+    line-height: 32px;
+    text-indent: 45px;
+    color: #E73C31;
+    background: #F8F9FC;
+    border: 1px solid #EEEEEF;
+    border-left: 2px solid #F06060;
+    border-right: none;
+}
+.content{
+    margin-left: 200px;
+    padding: 20px 20px 20px 19px;
+    min-height: 300px
+}
+footer{
+    height: 80px;
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+}
+
+/*intro.css*/
+.intro{
+    margin-left: 10px;
+}
+.intro h4 {
+    border-left: 4px solid  #F06060;;
+    font-size: 20px;
+    padding-left: 15px;
+    color: #777;
+}
+.intro p{
+    text-indent: 2em;
+}
+.intro p a{
+    color: #4183c4;
+    text-decoration: none;
+}
+.intro ol li{
+    list-style-type: decimal;
+    line-height: 1.5;
+}
